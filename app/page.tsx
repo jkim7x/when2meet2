@@ -1,11 +1,24 @@
 import Image from "next/image";
+import { 
+  Card,
+  CardContent,
+  CardFooter,
+} from "@/components/ui/card";
+import Form from '@/components/ui/create-event-form';
 
 export default function Home() {
   return (
     <div>
       <main>
         <h1>when2meet2</h1>
-        
+        <Card>
+          <CardContent>
+            <Form />
+          </CardContent>
+          <CardFooter>
+
+          </CardFooter>
+        </Card>
       </main>
     </div>
     // <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
